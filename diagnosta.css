@@ -1,0 +1,55 @@
+body{
+  padding-top: 3em;
+  max-width: 40em;
+  margin: auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header{
+  background-color: #EEEEEE;
+}
+
+.contenederPregunta{
+  background-color: none;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+.boton{
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #EEEEEE;
+  float: left;
+  text-decoration: none;
+}
+
+/*
+Este elemento se crea cuando pasas el raton por encima
+y aquí lo estamos modificando para que al pasar por el
+cambien de color
+background-color: #666666 Este es el color gris del
+fondo de la caja
+*/
+
+.boton:hover{
+  background-color: #666666;
+  color: #FFFFFF;
+}
+
+/*
+Este son los css para que se cree un espacio
+*/
+.limpiar{
+  clear:both;
+}
+
+footer{
+  text-decoration: none;
+  text-align: center;
+  padding: 50px;
+  background-color: #DDDDDD;
+}
